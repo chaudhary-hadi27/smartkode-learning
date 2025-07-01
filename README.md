@@ -39,7 +39,8 @@ smartkode-learning/
 ├── .eslintrc.json
 ├── .vercel.json
 ├── LICENSE
-└── README.md
+├── README.md
+└── etc...
 ```
 
 ---
@@ -151,6 +152,3 @@ Email: [chaudhary\_hadi27@gmail.com](mailto:chaudhary_hadi27@gmail.com)
 
 > Empowering the next generation of developers with AI-driven education.
 
-**#SmartKode #AI #Bootcamp #NextJS #TailwindCSS**
-# smartkode-learning
-# smartkode-learning
