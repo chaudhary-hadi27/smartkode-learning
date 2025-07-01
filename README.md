@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SmartKode Learning Platform
 
-## Getting Started
+Welcome to the official repository of **SmartKode** — an AI-powered coding bootcamp platform. Built with **Next.js 15**, **Tailwind CSS**, and **TypeScript**, this platform delivers real-world learning experiences with interactive courses, testimonials, and modern UI design.
 
-First, run the development server:
+## 🚀 Live Site
+
+🔗 [learn.smartkode.io](https://learn.smartkode.io)
+
+---
+
+## 📂 Project Structure
+
+```
+smartkode-learning/
+├── public/
+├── src/
+│   ├── app/
+│   ├── components/
+│   │   ├── Courses/
+│   │   │   ├── CoursesSection.tsx
+│   │   │   ├── BeginnerCourses.tsx
+│   │   │   ├── IntermediateCourses.tsx
+│   │   │   └── AdvancedCourses.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Testimonials.tsx
+│   │   └── Location.tsx
+│   │   └── Contact.tsx
+│   │   └── Footer.tsx
+│   ├── data/
+│   │   ├── beginnerCourses.ts
+│   │   ├── intermediateCourses.ts
+│   │   └── advancedCourses.ts
+│   ├── styles/
+│   │   └── globals.css
+├── next.config.js
+├── next-sitemap.config.js
+├── tsconfig.json
+├── .eslintrc.json
+├── .vercel.json
+├── LICENSE
+└── README.md
+```
+
+---
+
+## ✨ Features
+
+* 📚 **Course System**
+
+  * Beginner, Intermediate, and Advanced level courses
+  * Modal-based course detail views
+  * Markdown support for long descriptions
+
+* 🧑‍💻 **Real Testimonials**
+
+  * Student success stories
+  * Animated testimonial cards using Framer Motion
+
+* 🎨 **Modern UI**
+
+  * Tailwind CSS + Dark theme
+  * Responsive layout for all devices
+
+* 🌐 **SEO & Open Graph Support**
+
+  * `next/head` for metadata
+  * Sitemap and robots.txt generated via `next-sitemap`
+
+* ⚡ **Performance**
+
+  * Lazy loading images
+  * Optimized production build (`next build`)
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** Next.js 15
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Markdown:** react-markdown
+* **Animation:** Framer Motion
+* **Hosting:** Vercel
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/chaudhary-hadi27/smartkode-learning.git
+cd smartkode-learning
+npm install
+```
+
+### 🔧 Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🔨 Production Build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project is pre-configured for [Vercel](https://vercel.com):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* `.vercel.json` for build settings
+* `next-sitemap.config.js` for SEO sitemap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔁 Sitemap
 
-## Deploy on Vercel
+Access your dynamic sitemap here:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+https://learn.smartkode.io/sitemap.xml
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🔐 License
+
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 🤝 Contribution
+
+PRs and feedback are welcome! If you find a bug or want to add a new feature:
+
+1. Fork the repo
+2. Create your feature branch
+3. Commit and push your changes
+4. Submit a Pull Request ✅
+
+---
+
+## 📬 Contact
+
+Made with 💻 by **[Chaudhary Hadi](https://github.com/chaudhary-hadi27)**
+Email: [chaudhary\_hadi27@gmail.com](mailto:chaudhary_hadi27@gmail.com)
+
+---
+
+> Empowering the next generation of developers with AI-driven education.
+
+**#SmartKode #AI #Bootcamp #NextJS #TailwindCSS**
+# smartkode-learning
