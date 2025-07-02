@@ -55,14 +55,6 @@ export default function Navbar() {
     };
   }, []);
 
-  // ❗ Prevent body scroll when sidebar is open
-  useEffect(() => {
-    document.body.style.overflow = isOpen ? "hidden" : "auto";
-    return () => {
-      document.body.style.overflow = "auto";
-    };
-  }, [isOpen]);
-
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "#courses", label: "Courses" },
@@ -77,10 +69,7 @@ export default function Navbar() {
       {/* === SEO Meta === */}
       <Head>
         <title>SmartKode Learning - AI & ML Courses</title>
-        <meta
-          name="description"
-          content="Learn AI, ML, and emerging technologies at SmartKode. Hands-on experience with real-world projects."
-        />
+        <meta name="description" content="Learn AI, ML, and emerging technologies at SmartKode. Hands-on experience with real-world projects." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" />
@@ -154,7 +143,7 @@ export default function Navbar() {
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: -250, opacity: 0 }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
-              className="fixed top-0 left-0 h-full w-64 bg-black text-white p-6 shadow-lg z-40 overflow-y-auto"
+              className="fixed top-0 left-0 h-full w-64 bg-black text-white p-6 shadow-lg z-40"
             >
               <nav
                 className="flex flex-col gap-4 mt-32 lg:mt-64"
@@ -173,9 +162,7 @@ export default function Navbar() {
                         }, SIDEBAR_ANIMATION_DURATION);
                       }
                     }}
-                    className={`hover:text-gray-300 transition-all duration-300 ${
-                      pathname === href ? "text-cyan-400 font-semibold" : ""
-                    }`}
+                    className="hover:text-gray-300 transition-all duration-300"
                     title={label}
                   >
                     {label}
