@@ -10,21 +10,21 @@ const testimonials = [
     role: "AI Student",
     message:
       "SmartKode helped me go from zero to building AI chatbots in 2 months. The mentorship was on another level!",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: "/student1.jpg",  // 👈 Local image
   },
   {
     name: "Fatima Khan",
     role: "Frontend Developer",
     message:
       "The hands-on projects really boosted my confidence. I landed an internship right after the course.",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    image: "/student2.jpeg",  // 👈 Local image
   },
   {
     name: "Zain Sheikh",
     role: "Data Science Enthusiast",
     message:
       "Their teaching style is very practical and focused. I finally understand real-world Python and ML.",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    image: "/student3.jpg",  // 👈 Local image
   },
 ];
 
