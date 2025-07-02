@@ -27,7 +27,7 @@ export default function Contact() {
       {/* 📬 Contact Section */}
       <section
         id="contact"
-        className="px-6 py-20 text-center bg-black text-white scroll-mt-28"
+        className="px-6 py-20 text-center bg-black text-white scroll-mt-24"
         role="region"
         aria-labelledby="contact-heading"
       >

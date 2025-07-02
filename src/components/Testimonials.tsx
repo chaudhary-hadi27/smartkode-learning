@@ -10,21 +10,21 @@ const testimonials = [
     role: "AI Student",
     message:
       "SmartKode helped me go from zero to building AI chatbots in 2 months. The mentorship was on another level!",
-    image: "/student1.jpg",  // 👈 Local image
+    image: "/student1.jpg", // 👈 Local image
   },
   {
     name: "Fatima Khan",
     role: "Frontend Developer",
     message:
       "The hands-on projects really boosted my confidence. I landed an internship right after the course.",
-    image: "/student2.jpeg",  // 👈 Local image
+    image: "/student2.jpeg", // 👈 Local image
   },
   {
     name: "Zain Sheikh",
     role: "Data Science Enthusiast",
     message:
       "Their teaching style is very practical and focused. I finally understand real-world Python and ML.",
-    image: "/student3.jpg",  // 👈 Local image
+    image: "/student3.jpg", // 👈 Local image
   },
 ];
 
@@ -50,7 +50,7 @@ export default function Testimonials() {
 
       <section
         id="testimonials"
-        className="bg-black py-24 px-6 text-white scroll-mt-25"
+        className="bg-black py-24 px-6 text-white scroll-mt-24"
         role="region"
         aria-label="Testimonials Section"
       >

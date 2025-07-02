@@ -44,7 +44,7 @@ export default function Experience() {
 
       <section
         id="experience"
-        className="bg-black text-white py-24 px-6 text-center scroll-mt-25"
+        className="bg-black text-white py-24 px-6 text-center scroll-mt-24"
         role="region"
         aria-labelledby="experience-title"
       >
