@@ -50,7 +50,7 @@ export default function Testimonials() {
 
       <section
         id="testimonials"
-        className="bg-black py-24 px-6 text-white scroll-mt-15"
+        className="bg-black py-24 px-6 text-white scroll-mt-25"
         role="region"
         aria-label="Testimonials Section"
       >

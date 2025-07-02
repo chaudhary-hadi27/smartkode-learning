@@ -25,7 +25,7 @@ export default function Location() {
 
       <section
         id="location"
-        className="px-6 py-20 text-center bg-black text-white scroll-mt-18"
+        className="px-6 py-20 text-center bg-black text-white scroll-mt-25"
         role="region"
         aria-labelledby="location-title"
       >
